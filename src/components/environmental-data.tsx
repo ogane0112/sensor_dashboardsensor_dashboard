@@ -150,7 +150,7 @@ export function EnvironmentalDataChart({ dataType, title, color, yAxisLabel }: {
           <Line options={options} data={lineChartData} />
         </div>
       )}
-      <p className="text-sm text-gray-500 mt-2 text-right">※ 左端が最新のデータを示しています</p>
+      <p className="text-sm text-gray-500 mt-2 text-right">※ 右端が最新のデータを示しています</p>
     </div>
   );
 }
@@ -280,7 +280,7 @@ export function CombinedEnvironmentalData() {
           <Line options={options} data={chartData} />
         </div>
       )}
-      <p className="text-sm text-gray-500 mt-2 text-right">※ 左端が最新のデータを示しています</p>
+      <p className="text-sm text-gray-500 mt-2 text-right">※ 右端が最新のデータを示しています</p>
     </div>
   );
 }
