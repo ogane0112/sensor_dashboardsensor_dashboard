@@ -58,11 +58,11 @@ export default function HumidityPage(): React.ReactElement {
     fetchData();
   }, []);
 
-  const formatJapaneseTime = (timestamp: string): string => {
-    const date = new Date(timestamp);
-    const japaneseDate = new Date(date.getTime() + 9 * 60 * 60 * 1000); // UTC+9
-    return japaneseDate.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
-  };
+//   const formatJapaneseTime = (timestamp: string): string => {
+//     const date = new Date(timestamp);
+//     const japaneseDate = new Date(date.getTime() + 9 * 60 * 60 * 1000); // UTC+9
+//     return japaneseDate.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+//   };
 
   const chartData: ChartData<'line'> = {
     labels,
