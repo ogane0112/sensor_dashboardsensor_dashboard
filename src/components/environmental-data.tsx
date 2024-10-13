@@ -297,6 +297,6 @@ export default function EnvironmentalDashboard() {
     </div>
   );
 }
-
+//何故か危険扱いされる
 
 
